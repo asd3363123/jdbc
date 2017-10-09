@@ -10,6 +10,7 @@ import java.sql.ResultSet;
  */
 public class JDBC {
     public static void main(String[] args) {
+        ///aaasss
         Connection con = null;// 创建一个数据库连接
         PreparedStatement pre = null;// 创建预编译语句对象，一般都是用这个而不用Statement
         ResultSet result = null;// 创建一个结果集对象
