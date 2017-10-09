@@ -16,7 +16,7 @@ public class JDBC {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");// 加载Oracle驱动程序
             System.out.println("开始尝试连接数据库！");
-            String url = "jdbc:oracle:" + "thin:@192.168.1.7:1521:ORCL";// 127.0.0.1是本机地址，XE是精简版Oracle的默认数据库名
+            String url = "jdbc:oracle:" + "thin:@192.168.1.7:1521:ORCL";
             String user = "C##zry";// 用户名,系统默认的账户名
             String password = "123456";// 你安装时选设置的密码
 
